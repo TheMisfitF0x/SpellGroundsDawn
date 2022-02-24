@@ -958,3 +958,112 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.24-17.35.36:961][345]AssetCheck: New page: Asset Save: multiple assets
 [2022.02.24-17.35.36:961][345]LogContentValidation: Display: Validating Material /Game/F0xBox/Dirt.Dirt
 [2022.02.24-17.35.36:961][345]LogContentValidation: Display: Validating Material /Game/F0xBox/Ice.Ice
+[2022.02.24-17.40.55:019][835]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.02.24-17.40.55:033][835]LogContentBrowser: Creating deferred item: NewFolder
+[2022.02.24-17.40.57:572][140]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2022.02.24-17.40.57:573][140]LogContentBrowser: End creating deferred item NewFolder
+[2022.02.24-17.41.06:310][168]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.02.24-17.41.06:319][168]LogContentBrowser: Creating deferred item: NewWorld
+[2022.02.24-17.41.33:738][450]LogContentBrowser: Attempting asset rename: NewWorld -> BlockoutLevel
+[2022.02.24-17.41.33:816][450]LogContentBrowser: End creating deferred item NewWorld
+[2022.02.24-17.41.36:981][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.02.24-17.41.36:984][810]LogSavePackage: Moving '../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Saved/BlockoutLevel6985A5D54D27648EC64CC88DF7F85978.tmp' to '../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockoutLevel.umap'
+[2022.02.24-17.41.37:106][810]LogFileHelpers: Saving map 'BlockoutLevel' took 0.134
+[2022.02.24-17.41.37:233][810]AssetCheck: New page: Asset Save: BlockoutLevel
+[2022.02.24-17.41.37:233][810]LogContentValidation: Display: Validating World /Game/Levels/BlockoutLevel.BlockoutLevel
+[2022.02.24-17.41.38:950][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.02.24-17.41.38:967][ 15]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/BlockoutLevel.BlockoutLevel
+[2022.02.24-17.41.38:968][ 15]Cmd: MAP LOAD FILE="../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockoutLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.24-17.41.38:968][ 15]LightingResults: New page: Lighting Build
+[2022.02.24-17.41.38:968][ 15]LoadErrors: New page: Loading map: BlockoutLevel.umap
+[2022.02.24-17.41.39:004][ 15]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.24-17.41.39:004][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.24-17.41.39:005][ 15]MapCheck: New page: Map Check
+[2022.02.24-17.41.39:005][ 15]LightingResults: New page: Lighting Build
+[2022.02.24-17.41.39:009][ 15]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.24-17.41.39:011][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.02.24-17.41.39:012][ 15]LogAudio: Display: Audio Device (ID: 1) registered with world 'BlockoutLevel'.
+[2022.02.24-17.41.39:013][ 15]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.24-17.41.39:013][ 15]LogAIModule: Creating AISystem for world BlockoutLevel
+[2022.02.24-17.41.39:019][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.02.24-17.41.39:023][ 15]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.24-17.41.39:023][ 15]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.151ms to complete.
+[2022.02.24-17.41.39:023][ 15]LogFileHelpers: Loading map 'BlockoutLevel' took 0.056
+[2022.02.24-17.41.43:290][508]LogObjectTools: Deleting 1 worlds: /Game/Levels/BlockoutLevel.BlockoutLevel
+[2022.02.24-17.41.43:290][508]LogObjectTools: Currently 2 active worlds: /Game/Levels/BlockoutLevel.BlockoutLevel, /Engine/Transient.World_0
+[2022.02.24-17.41.45:355][508]LogSlate: Window 'Unable to delete level' being destroyed
+[2022.02.24-17.41.45:359][508]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2022.02.24-17.42.03:700][678]LogRenderer: Reallocating scene render targets to support 1208x964 Format 10 NumSamples 1 (Frame:2419).
+[2022.02.24-17.43.04:063][818]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.02.24-17.43.04:071][818]LogContentBrowser: Creating deferred item: NewWorld
+[2022.02.24-17.43.06:318][ 88]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2022.02.24-17.43.06:388][ 88]LogContentBrowser: End creating deferred item NewWorld
+[2022.02.24-17.43.07:027][163]LogObjectTools: Deleting 1 worlds: /Game/Levels/NewWorld.NewWorld
+[2022.02.24-17.43.07:027][163]LogObjectTools: Currently 2 active worlds: /Game/Levels/BlockoutLevel.BlockoutLevel, /Engine/Transient.World_0
+[2022.02.24-17.43.07:033][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.02.24-17.43.08:376][163]LogSlate: Window 'Delete Assets' being destroyed
+[2022.02.24-17.43.08:391][163]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2022.02.24-17.43.08:391][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.24-17.43.08:450][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.02.24-17.43.13:438][587]LogSlate: Window 'New Level' being destroyed
+[2022.02.24-17.43.13:443][587]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.24-17.43.13:471][587]LightingResults: New page: Lighting Build
+[2022.02.24-17.43.13:471][587]LoadErrors: New page: Loading map: Template_Default.umap
+[2022.02.24-17.43.13:472][587]LogWorld: UWorld::CleanupWorld for BlockoutLevel, bSessionEnded=true, bCleanupResources=true
+[2022.02.24-17.43.13:472][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.24-17.43.13:472][587]MapCheck: New page: Map Check
+[2022.02.24-17.43.13:472][587]LightingResults: New page: Lighting Build
+[2022.02.24-17.43.13:477][587]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.24-17.43.13:478][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.02.24-17.43.13:500][587]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.02.24-17.43.13:502][587]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.02.24-17.43.13:503][587]LogAIModule: Creating AISystem for world Untitled_1
+[2022.02.24-17.43.13:506][587]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.24-17.43.13:513][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.02.24-17.43.13:519][587]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.24-17.43.13:519][587]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.237ms to complete.
+[2022.02.24-17.43.13:519][587]LogFileHelpers: Loading map 'Template_Default' took 0.076
+[2022.02.24-17.43.16:708][955]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'C:/Users/jorda/Documents/GitHub'
+[2022.02.24-17.43.27:459][955]LogSlate: Window 'Save Level As' being destroyed
+[2022.02.24-17.43.27:497][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BlockLevel" FILE="../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.24-17.43.27:502][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.02.24-17.43.27:513][955]LogSavePackage: Moving '../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Saved/BlockLevel9CE8064D411AD3E34C3AB780BC735711.tmp' to '../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockLevel.umap'
+[2022.02.24-17.43.27:749][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BlockLevel_BuiltData" FILE="../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockLevel_BuiltData.uasset" SILENT=true
+[2022.02.24-17.43.27:765][955]LogSavePackage: Moving '../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Saved/BlockLevel_BuiltData3A78349D49362EB781A23AB2AF37EBE2.tmp' to '../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockLevel_BuiltData.uasset'
+[2022.02.24-17.43.27:884][955]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2022.02.24-17.43.27:884][955]SourceControl: Error: SpellGroundsDawn/Content/Levels/BlockLevel_BuiltData.uasset
+[2022.02.24-17.43.27:884][955]SourceControl: Error: hint: Use -f if you really want to add them.
+[2022.02.24-17.43.27:884][955]SourceControl: Error: hint: Turn this message off by running
+[2022.02.24-17.43.27:884][955]SourceControl: Error: hint: "git config advice.addIgnoredFile false"
+[2022.02.24-17.43.27:889][955]LogFileHelpers: Saving map 'BlockLevel' took 0.423
+[2022.02.24-17.43.27:893][955]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.24-17.43.27:893][955]LogContentValidation: Display: Validating World /Game/Levels/BlockLevel.BlockLevel
+[2022.02.24-17.43.27:893][955]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/BlockLevel_BuiltData.BlockLevel_BuiltData
+[2022.02.24-17.43.28:010][968]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'C:/Users/jorda/Documents/GitHub'
+[2022.02.24-17.43.32:602][518]LogObjectTools: Deleting 1 worlds: /Game/Levels/BlockoutLevel.BlockoutLevel
+[2022.02.24-17.43.32:602][518]LogObjectTools: Currently 2 active worlds: /Game/Levels/BlockLevel.BlockLevel, /Engine/Transient.World_0
+[2022.02.24-17.43.32:607][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.02.24-17.43.34:019][518]LogSlate: Window 'Delete Assets' being destroyed
+[2022.02.24-17.43.34:036][518]LogWorld: UWorld::CleanupWorld for BlockoutLevel, bSessionEnded=true, bCleanupResources=true
+[2022.02.24-17.43.34:036][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.24-17.43.34:146][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.02.24-17.43.34:155][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.02.24-17.43.34:160][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.02.24-17.43.34:291][518]SourceControl: rm 'SpellGroundsDawn/Content/Levels/BlockoutLevel.umap'
+[2022.02.24-17.43.50:050][355]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2022.02.24-17.43.50:050][355]SourceControl: Error: SpellGroundsDawn/Content/Levels/BlockLevel_BuiltData.uasset
+[2022.02.24-17.43.50:050][355]SourceControl: Error: hint: Use -f if you really want to add them.
+[2022.02.24-17.43.50:050][355]SourceControl: Error: hint: Turn this message off by running
+[2022.02.24-17.43.50:050][355]SourceControl: Error: hint: "git config advice.addIgnoredFile false"
+[2022.02.24-17.43.56:100][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BlockLevel" FILE="../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.24-17.43.56:105][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.02.24-17.43.56:115][ 56]LogSavePackage: Moving '../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Saved/BlockLevel300C20F34A2F63153DAD74B2D703662D.tmp' to '../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockLevel.umap'
+[2022.02.24-17.43.56:124][ 56]LogFileHelpers: Saving map 'BlockLevel' took 0.025
+[2022.02.24-17.44.07:902][ 56]LogSlate: Window 'Submit Files' being destroyed
+[2022.02.24-17.44.08:243][ 56]LogSourceControl: commit successful: [main 0568b6b] start of blocked out level
+[2022.02.24-17.44.08:295][ 56]SourceControl: [main 0568b6b] start of blocked out level
+[2022.02.24-17.44.08:295][ 56]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2022.02.24-17.44.08:295][ 56]SourceControl:  create mode 100644 SpellGroundsDawn/Content/Levels/BlockLevel.umap
+[2022.02.24-17.44.08:302][ 56]SourceControl: Commited [main 0568b6b] start of blocked out level.
+[2022.02.24-17.44.08:305][ 56]AssetCheck: New page: Asset Save: BlockLevel
+[2022.02.24-17.44.08:305][ 56]LogContentValidation: Display: Validating World /Game/Levels/BlockLevel.BlockLevel
