@@ -898,3 +898,225 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.04-00.07.15:757][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
 [2022.03.04-00.07.20:756][231]LogSlate: Window 'Message Log' being destroyed
 [2022.03.04-00.07.20:763][231]LogSlate: Window 'Message Log' being destroyed
+[2022.03.04-00.08.51:377][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.03.04-00.08.51:396][306]LogSlate: Took 0.012430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.03.04-00.08.51:444][306]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/BlockLevel.BlockLevel
+[2022.03.04-00.08.51:444][306]Cmd: MAP LOAD FILE="../../../../../../Users/jorda/Documents/GitHub/SpellGroundsDawn/Content/Levels/BlockLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.03.04-00.08.51:444][306]LightingResults: New page: Lighting Build
+[2022.03.04-00.08.51:444][306]LoadErrors: New page: Loading map: BlockLevel.umap
+[2022.03.04-00.08.51:447][306]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.04-00.08.51:447][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.04-00.08.51:447][306]MapCheck: New page: Map Check
+[2022.03.04-00.08.51:447][306]LightingResults: New page: Lighting Build
+[2022.03.04-00.08.51:452][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.04-00.08.51:459][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.03.04-00.08.51:460][306]LogAudio: Display: Audio Device (ID: 1) registered with world 'BlockLevel'.
+[2022.03.04-00.08.51:492][306]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.03.04-00.08.51:492][306]LogAIModule: Creating AISystem for world BlockLevel
+[2022.03.04-00.08.51:508][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.03.04-00.08.51:518][306]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.03.04-00.08.51:518][306]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.176ms to complete.
+[2022.03.04-00.08.51:518][306]LogFileHelpers: Loading map 'BlockLevel' took 0.074
+[2022.03.04-00.09.03:878][747]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.03.04-00.09.03:893][747]LogContentBrowser: Creating deferred item: NewFolder
+[2022.03.04-00.11.29:853][258]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2022.03.04-00.11.29:854][258]LogContentBrowser: End creating deferred item NewFolder
+[2022.03.04-00.11.39:694][356]LogSlate: Window 'Source Control Login' being destroyed
+[2022.03.04-00.11.50:316][553]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.03.04-00.11.50:323][553]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.03.04-00.11.53:522][937]LogContentBrowser: Attempting asset rename: NewMaterial -> Landscape
+[2022.03.04-00.11.53:604][937]LogContentBrowser: End creating deferred item NewMaterial
+[2022.03.04-00.12.04:254][621]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Landscape.Landscape
+[2022.03.04-00.12.04:257][621]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: E3F98CCB7C740D5513EA5BCC9054C0A463230780), compiling. 
+[2022.03.04-00.12.04:286][621]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.03.04-00.12.04:307][621]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.03.04-00.12.04:406][621]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.03.04-00.12.04:585][621]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: AFB101A72D7D0EEF73F72BA626875A549D835102), compiling. 
+[2022.03.04-00.12.04:589][621]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: 8F4BFAE487E05925051C2495CC3F0C32C94DD21B), compiling. 
+[2022.03.04-00.12.04:607][621]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.04-00.12.04:612][621]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.03.04-00.12.04:762][622]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.03.04-00.12.04:763][622]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.03.04-00.12.05:582][642]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.04-00.12.05:583][642]LogShaderCompilers: Display: Total job queries 20, among them cache hits 0 (0.00%)
+[2022.03.04-00.12.05:583][642]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.03.04-00.12.05:583][642]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.03.04-00.12.05:583][642]LogShaderCompilers: Display: ================================================
+[2022.03.04-00.12.05:840][651]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.04-00.12.05:908][656]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.03.04-00.12.05:908][656]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.03.04-00.12.05:908][656]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.04-00.12.05:908][656]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.04-00.12.33:560][635]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: 21F2BB9FA341C40783315FC13CA7F7A89C0AC978), compiling. 
+[2022.03.04-00.12.33:565][635]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.04-00.12.33:600][637]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.03.04-00.12.33:600][637]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.03.04-00.12.33:600][637]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.04-00.12.33:600][637]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.04-00.12.39:738][270]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: 414CC7118406616F0F0E952B7CD64E2FF3BB93B8), compiling. 
+[2022.03.04-00.12.39:755][270]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.04-00.12.39:770][272]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.03.04-00.12.39:770][272]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.03.04-00.12.39:771][272]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.03.04-00.12.39:771][272]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.03.04-00.12.39:773][272]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.03.04-00.12.39:787][273]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.03.04-00.12.39:788][273]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.03.04-00.12.39:788][273]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2022.03.04-00.12.39:788][273]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.03.04-00.12.39:788][273]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.03.04-00.12.39:788][273]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.03.04-00.12.39:788][273]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.03.04-00.12.39:788][273]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.03.04-00.12.39:788][273]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.03.04-00.12.43:311][613]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.03.04-00.12.43:311][613]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.03.04-00.12.43:311][613]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.04-00.12.43:311][613]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.04-00.12.55:787][531]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: FEDAC5D5F83664201635823479D09AD267DF09A5), compiling. 
+[2022.03.04-00.12.55:790][531]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: 570B10BDB6223E8E41A3075DB34CE2D498CBA4AA), compiling. 
+[2022.03.04-00.12.55:796][532]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.04-00.12.55:827][534]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.03.04-00.12.55:827][534]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.03.04-00.12.55:827][534]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.04-00.12.55:827][534]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.04-00.12.56:802][629]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: 818CF1AC1ACBE2A50E8E6C4A3212B858D2FB7992), compiling. 
+[2022.03.04-00.12.56:805][629]LogMaterial: Display: Missing cached shadermap for Landscape in PCD3D_SM5, Default, SM5 (DDC key hash: EFA5851A6F1C7F00CCB1B095FF8E4082AF37D85A), compiling. 
+[2022.03.04-00.12.56:813][630]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.04-00.12.56:837][632]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.04-00.12.56:853][633]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.03.04-00.12.56:853][633]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.03.04-00.12.56:853][633]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.04-00.12.56:853][633]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.04-00.13.04:840][ 71]LogSlate: Window 'Landscape' being destroyed
+[2022.03.04-00.13.45:906][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.45:912][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.45:918][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.45:925][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.45:932][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.45:938][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.45:944][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.45:963][870]LogTexture: Display: Building textures: HQ_Lightmap0_11 (OODLE_AutoDXT, 128X128)
+[2022.03.04-00.13.45:963][870]LogTexture: Display: Building textures: HQ_Lightmap1_12 (OODLE_AutoDXT, 64X64)
+[2022.03.04-00.13.45:963][870]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (OODLE_DXT1, 128X128)
+[2022.03.04-00.13.45:963][870]LogTexture: Display: Building textures: DeprecatedTexture1E337DE144B8C3CD4F1F7D8B55348072 (BGRA8, 128X128)
+[2022.03.04-00.13.46:472][870]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_10 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_6 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_5 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_8 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_9 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_4 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: HQ_Lightmap0_7 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (OODLE_DXT1, 64X64)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:473][870]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:474][870]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:474][870]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:474][870]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.46:474][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:474][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:474][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:474][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.46:474][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.46:487][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.46:495][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.46:511][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.46:519][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.46:527][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.46:535][870]LogTexture: Display: Building textures: DeprecatedTexture9F64EEEA4585892648968EB348907B1F (BGRA8, 128X128)
+[2022.03.04-00.13.46:538][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_01': Can't find file.
+[2022.03.04-00.13.46:538][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_01': Can't find file.
+[2022.03.04-00.13.46:539][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_Shingle_01': Can't find file.
+[2022.03.04-00.13.46:539][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_Shingle_01': Can't find file.
+[2022.03.04-00.13.46:540][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_01': Can't find file.
+[2022.03.04-00.13.46:540][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_Shingle_01': Can't find file.
+[2022.03.04-00.13.46:541][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_01': Can't find file.
+[2022.03.04-00.13.46:541][870]LoadErrors: Failed to load /Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_01.MI_CF_01_Wood_01 Referenced by SM_CF_01_Shingle_Roof_01
+[2022.03.04-00.13.46:541][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_Shingle_01': Can't find file.
+[2022.03.04-00.13.46:541][870]LoadErrors: Failed to load /Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_Shingle_01.MI_CF_01_Wood_Shingle_01 Referenced by SM_CF_01_Shingle_Roof_01
+[2022.03.04-00.13.46:542][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_01': Can't find file.
+[2022.03.04-00.13.46:542][870]LogLinker: Warning: [AssetLog] C:\Users\jorda\Documents\GitHub\SpellGroundsDawn\Content\Medieval_Environment\Medieval_Castle_Vol1\Meshes\SM_CF_01_Shingle_Roof_01.uasset: Failed to load '/Game/Medieval_Environment/Medieval_Castle_Vol1/Materials/MI_CF_01_Wood_Shingle_01': Can't find file.
+[2022.03.04-00.13.46:549][870]LogTexture: Display: Building textures: DeprecatedTexture35510DC1474F153AC48F3899D84D2D35 (BGRA8, 128X128)
+[2022.03.04-00.13.46:554][870]LogTexture: Display: Building textures: DeprecatedTexture697D9AF54176D89F7F609FB20C23D25B (BGRA8, 128X128)
+[2022.03.04-00.13.48:672][870]LogTexture: Display: Building textures: HQ_Lightmap0_4 (OODLE_AutoDXT, 64X64)
+[2022.03.04-00.13.48:672][870]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (OODLE_DXT1, 64X64)
+[2022.03.04-00.13.48:672][870]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.48:672][870]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 1024X1024)
+[2022.03.04-00.13.48:672][870]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 1024X1024)
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 8192X8192)
+[2022.03.04-00.13.48:672][870]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 8192X8192)
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 8192 x 8192 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.48:672][870]LogTextureFormatOodle: Display: non-RDO encode 8192 x 8192 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.04-00.13.48:674][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.03.04-00.14.01:754][870]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.04-00.14.01:996][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.03.04-00.14.02:007][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.03.04-00.14.02:012][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.03.04-00.14.02:017][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.03.04-00.14.02:022][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.03.04-00.14.02:027][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:032][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:037][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:043][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.03.04-00.14.02:048][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.03.04-00.14.02:052][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:057][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.03.04-00.14.02:062][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:067][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:072][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:077][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:082][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:087][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.04-00.14.02:092][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.03.04-00.14.02:097][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.03.04-00.14.02:114][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.03.04-00.14.02:120][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.03.04-00.14.02:311][870]SourceControl: Error: Updated 0 paths from the index
+[2022.03.04-00.14.02:434][870]SourceControl: rm 'SpellGroundsDawn/Content/Medieval_Environment/Medieval_Castle_Vol1/Meshes/SM_CF_01_Shingle_Roof_01.uasset'
